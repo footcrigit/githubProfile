@@ -10,8 +10,12 @@ export class HomeProfile extends React.Component {
         super(props)
     }
     async componentDidMount(){
-        let response = await getRepoDetails("supreetsingh247");
-        this.props.RepoAPIResponse(response);
+        try {
+            let response = await getRepoDetails("supreetsingh247");
+            this.props.RepoAPIResponse(response);
+        }catch(err){
+            console.log(err);
+        }
     }
     render(){
         return(
