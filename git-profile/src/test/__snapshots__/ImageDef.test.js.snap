@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Homeprofile page 1`] = `
+<styled.div>
+  <form
+    onSubmit={[Function]}
+  >
+    <styled.input
+      id="searchRepoID"
+      type="text"
+    />
+    <styled.button
+      id="searchSubmit"
+      type="submit"
+    >
+      Search
+    </styled.button>
+  </form>
+  <styled.img />
+  <h3>
+    test
+  </h3>
+</styled.div>
+`;
