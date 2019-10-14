@@ -16,9 +16,13 @@ export class ImageDef extends React.Component {
     }
     async SearchRepo(e){
         e.preventDefault();
-        let reponame = e.target.searchRepoID.value;
-        let resp = await getRepoDetails(reponame);
-        this.props.RepoAPIResponse(resp);
+        try{
+            let reponame = e.target.searchRepoID.value;
+            let resp = await getRepoDetails(reponame);
+            this.props.RepoAPIResponse(resp);
+        }catch(err){
+            console.log(err);
+        }
     }
     render(){
         return(
