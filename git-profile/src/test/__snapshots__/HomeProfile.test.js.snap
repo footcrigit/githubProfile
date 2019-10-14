@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Homeprofile page 1`] = `
+<div
+  className="containerMain"
+>
+  <table
+    className="mainTable"
+  >
+    <tbody>
+      <tr>
+        <td
+          className="imageDiv"
+        >
+          <Connect(ImageDef) />
+        </td>
+        <td
+          className="ConentDiv"
+        >
+          <Connect(ContentDef) />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

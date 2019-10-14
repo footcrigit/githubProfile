@@ -1,0 +1,68 @@
+{
+    RepoAPIResponse: {
+      imgurl: 'https://avatars1.githubusercontent.com/u/7427552?v=4',
+      name: 'supreetsingh247',
+      favreport: [
+        {
+          name: 'ActionsAngular',
+          description: 'Conditional Discounts',
+          language: null
+        },
+        {
+          name: 'bidding',
+          description: 'Testing a basic bidding application using react redux',
+          language: 'JavaScript'
+        },
+        {
+          name: 'first-contributions',
+          description: '🚀✨ Help beginners contribute to open source projects',
+          language: 'JavaScript'
+        },
+        {
+          name: 'FreeCodeCamp',
+          description: 'The https://FreeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.',
+          language: 'JavaScript'
+        },
+        {
+          name: 'Observe',
+          description: 'Test app',
+          language: 'JavaScript'
+        },
+        {
+          name: 'pravar',
+          description: 'Modified template according to need',
+          language: 'CSS'
+        },
+        {
+          name: 'react-basic-pluralsight',
+          description: 'A basic react redux application using mock api and thunks. Also used react-router, hot module reloading. ',
+          language: 'JavaScript'
+        },
+        {
+          name: 'React-Redux-Boilerplate',
+          description: null,
+          language: 'JavaScript'
+        },
+        {
+          name: 'superslides',
+          description: 'A fullscreen, hardware accelerated slider for jQuery.',
+          language: 'JavaScript'
+        },
+        {
+          name: 'vedantu',
+          description: null,
+          language: 'JavaScript'
+        },
+        {
+          name: 'walnut',
+          description: null,
+          language: 'HTML'
+        },
+        {
+          name: 'wizard',
+          description: 'Angular Wizard',
+          language: 'CSS'
+        }
+      ]
+    }
+  }

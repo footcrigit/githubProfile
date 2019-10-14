@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Homeprofile page 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.button>
+      Overview
+    </styled.button>
+    <styled.button>
+      Repositories
+    </styled.button>
+    <styled.button>
+      Project
+    </styled.button>
+    <styled.button>
+      Stars
+    </styled.button>
+    <styled.button>
+      Followers
+    </styled.button>
+    <styled.button>
+      Following
+    </styled.button>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <section>
+          <h4>
+            Popular Repositories
+          </h4>
+        </section>
+      </styled.div>
+    </styled.div>
+    <styled.div
+      key="0"
+    >
+      <styled.div>
+        <section>
+          <h5>
+            test
+          </h5>
+          <p>
+            test
+          </p>
+          <p>
+            test
+          </p>
+        </section>
+      </styled.div>
+      <styled.div>
+        <section>
+          <h5>
+            test1
+          </h5>
+          <p>
+            test2
+          </p>
+          <p>
+            test3
+          </p>
+        </section>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
